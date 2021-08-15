@@ -5,4 +5,4 @@ file(GLOB SRCS
         ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp
         )
 
-add_executable(${PROJECT_NAME} ${SRCS} ray.h hittable.h sphere.h hittable_list.h rtweekend.h camera.h)
+add_executable(${PROJECT_NAME} ${SRCS} ray.h hittable.h sphere.h hittable_list.h rtweekend.h camera.h material.h)
